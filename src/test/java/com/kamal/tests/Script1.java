@@ -1,4 +1,4 @@
-package com.kamal;
+package com.kamal.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
