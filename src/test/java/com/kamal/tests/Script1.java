@@ -25,9 +25,15 @@ public class Script1 {
     @Test
             public void webkamal() {
         driver.get("https://belkam2018.github.io/kamalweb/");
-        driver.findElement(By.xpath("//a[contains(text(),'Apply here')]")).click();
 
+        driver.findElement(By.xpath("//a[contains(text(),'Apply here')]")).click();
     }
+        @Test
+                public void printMessage(){
+
+            System.out.println("You are on the website of Kamal");
+        }
+
     @AfterTest
     public void tearDownTest(){
 
